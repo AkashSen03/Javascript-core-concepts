@@ -27,3 +27,5 @@ document.querySelector("#parent").addEventListener("click", () => {
 document.querySelector("#child").addEventListener("click", () => {
   console.log("Child clicked (bubbling)");
 }, false); // Use bubbling phase
+
+// Even though we can change true & false accourding to our need & also it effects to that was call for event bubbling or capturing.
